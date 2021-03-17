@@ -1,3 +1,13 @@
+# debux-stubs - fork for use with shadow-cljs
+
+shadow-cljs does not allow for dependencies to be exchanged for different build targts, or at least I dod not figure out how to do it.
+Also I do prefer to explicitely express different functionality.
+
+With this fork I simply renamed the debux namespace to debux-stubs for all stubs intendend for production builds.
+
+That way one can use shadow-cljs' :ns-alias feature to switch between the two libraries.
+
+
 # debux-stubs
 # Debux
 :source-language: clojure
