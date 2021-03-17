@@ -5,7 +5,7 @@ Also I do prefer to explicitly express different functionality.
 
 With this fork I simply renamed the debux namespace to debux-stubs for all stubs intendend for production builds.
 
-That way one can use shadow-cljs' :ns-alias feature to switch between the two libraries.
+That way one can use shadow-cljs' :ns-aliases feature to switch between the two libraries.
 
 
 # debux-stubs
