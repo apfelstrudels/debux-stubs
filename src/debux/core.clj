@@ -1,4 +1,4 @@
-(ns debux.core)
+(ns debux-stubs.core)
 
 ;;; config APIs
 (defn set-debug-mode! [val])
