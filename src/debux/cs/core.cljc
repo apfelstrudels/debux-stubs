@@ -1,4 +1,4 @@
-(ns debux.cs.core)
+(ns debux-stubs.cs.core)
 
 ;;; config APIS
 (defn set-debug-mode! [val])
